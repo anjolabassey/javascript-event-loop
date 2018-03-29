@@ -18,6 +18,6 @@ anon();
 
 4. An asynchronous function is non-blocking. i.e does not depend on each other's  outcome. We pass a callback function into an asynchronous function(either through events or AJAX requests) and will be called once the task is completed.
 
-5. A web worker is a JavaScript running in the background independently of other scripts, without affecting the performance of the page. It is a is a simple means for web content to run scripts in background thread(creating new threads for javascript code to run in).
+5. A web worker is a JavaScript running in the background independently of other scripts, without affecting the performance of the page(UI). It is a is a simple means for web content to run scripts in background thread(creating new threads for javascript code to run in).
 
 
